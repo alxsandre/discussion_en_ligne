@@ -1,0 +1,52 @@
+#conversation {
+  display: grid;
+  grid-template-columns: 1fr 30px;
+  padding: 5vw;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+}
+
+.center{
+  padding-left: 3vw;
+  padding-top: 1vw;
+}
+form { width: 100%;}
+form input{
+  font: 1.2rem pacifico, Helvetica, Arial;
+  background-color: rgb(187, 235, 251);
+  border-radius: 22px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 10px;
+  border: 0px;
+  width: 85%;
+  margin-right: 0.5%;
+  outline: none;
+  box-sizing: border-box;
+  }
+/*form button { width: 14%; background: none; border: none; padding: 10px; outline: none; box-sizing: border-box;}
+*/
+#messages { display: block;list-style-type: none; margin: 0; padding: 10px; word-break: break-word;}
+
+/*
+.fas {transform: scale(1.6);}
+.fa-paper-plane {color: black;}
+*/
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items:center;
+  width: 100%;
+  position: relative;
+}
+.fas { padding-bottom: 2vw;}
+.fa-palette {color: black;}
+.liste-fonts{
+  position: absolute;
+  width: 70px;
+  right: 100%;
+  list-style: none;
+}

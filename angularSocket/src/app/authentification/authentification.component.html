@@ -1,0 +1,13 @@
+<form >
+    <h1> Choose your logs</h1>
+
+    <label for="pseudo">Pseudo or Name (your favourite) :</label>
+    <input type="text" id="pseudo" name="user_pseudo">
+    <p id="peudo_error"> Invalid pseudo.</p>
+
+    <label for="password"> Password :</label>
+    <input type="text" id="password" name="user_password" >
+    <p id="password_error"> Invalid password </p>
+
+ <button name="button" [routerLink]="['/discussion']" > Enter </button>
+</form>
